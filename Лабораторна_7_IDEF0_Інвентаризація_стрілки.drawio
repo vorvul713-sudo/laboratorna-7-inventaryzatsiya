@@ -1,0 +1,880 @@
+<mxfile host="app.diagrams.net" pages="16">
+  <diagram name="A-0 Контекст" id="YpJLxgJBUy7H-qdqJAdw">
+    <mxGraphModel dx="2438" dy="1353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A-0 Контекст | Організація відеопрокату | Варіант 7" vertex="1">
+          <mxGeometry height="50" width="900" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Організувати відеопрокат" vertex="1">
+          <mxGeometry height="110" width="260" x="500" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вхід: запит клієнта" vertex="1">
+          <mxGeometry height="45" width="340" x="60" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Керування: правила прокату, тарифи" vertex="1">
+          <mxGeometry height="45" width="340" x="430" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вихід: оформлена оренда / повернення" vertex="1">
+          <mxGeometry height="45" width="340" x="800" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note3" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Механізм: працівник, база даних" vertex="1">
+          <mxGeometry height="45" width="340" x="1170" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A0 Декомпозиція" id="ruCOWFOIz8frpdS2FuLS">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A0 Декомпозиція | Організація відеопрокату | Варіант 7" vertex="1">
+          <mxGeometry height="50" width="900" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Прийняти замовлення" vertex="1">
+          <mxGeometry height="90" width="170" x="80" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Перевірити наявність фільму" vertex="1">
+          <mxGeometry height="90" width="170" x="300" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Оформити оренду" vertex="1">
+          <mxGeometry height="90" width="170" x="520" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Видати носій" vertex="1">
+          <mxGeometry height="90" width="170" x="740" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Прийняти повернення" vertex="1">
+          <mxGeometry height="90" width="170" x="960" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="a0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="a1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="a2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="a3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="a3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="a4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вхід: запит клієнта" vertex="1">
+          <mxGeometry height="45" width="340" x="60" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Керування: правила прокату, тарифи" vertex="1">
+          <mxGeometry height="45" width="340" x="430" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вихід: оформлена оренда / повернення" vertex="1">
+          <mxGeometry height="45" width="340" x="800" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note3" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Механізм: працівник, база даних" vertex="1">
+          <mxGeometry height="45" width="340" x="1170" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A1 Прийняти замовлення" id="oephi0WA91KKTuEs4sxu">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A1 Прийняти замовлення | Організація відеопрокату | Варіант 7" vertex="1">
+          <mxGeometry height="50" width="900" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Отримати дані клієнта" vertex="1">
+          <mxGeometry height="90" width="190" x="100" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Знайти клієнта в базі" vertex="1">
+          <mxGeometry height="90" width="190" x="370" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Уточнити фільм і строк" vertex="1">
+          <mxGeometry height="90" width="190" x="640" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Підтвердити замовлення" vertex="1">
+          <mxGeometry height="90" width="190" x="910" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="a0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="a1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="a2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="a3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вхід: запит клієнта" vertex="1">
+          <mxGeometry height="45" width="340" x="60" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Керування: правила прокату, тарифи" vertex="1">
+          <mxGeometry height="45" width="340" x="430" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вихід: оформлена оренда / повернення" vertex="1">
+          <mxGeometry height="45" width="340" x="800" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note3" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Механізм: працівник, база даних" vertex="1">
+          <mxGeometry height="45" width="340" x="1170" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A2 Оформити оренду" id="8TsrCMwkSDRsfB-E-TjO">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A2 Оформити оренду | Організація відеопрокату | Варіант 7" vertex="1">
+          <mxGeometry height="50" width="900" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Перевірити стан носія" vertex="1">
+          <mxGeometry height="90" width="190" x="100" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Розрахувати вартість оренди" vertex="1">
+          <mxGeometry height="90" width="190" x="370" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Прийняти оплату" vertex="1">
+          <mxGeometry height="90" width="190" x="640" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Зареєструвати видачу" vertex="1">
+          <mxGeometry height="90" width="190" x="910" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="a0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="a1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="a2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="a3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вхід: запит клієнта" vertex="1">
+          <mxGeometry height="45" width="340" x="60" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Керування: правила прокату, тарифи" vertex="1">
+          <mxGeometry height="45" width="340" x="430" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вихід: оформлена оренда / повернення" vertex="1">
+          <mxGeometry height="45" width="340" x="800" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note3" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Механізм: працівник, база даних" vertex="1">
+          <mxGeometry height="45" width="340" x="1170" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A-0 Контекст" id="aIZeZ6-H5uaojoXD_wjq">
+    <mxGraphModel dx="2049" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A-0 Контекст | Проведення інвентаризації | Варіант 4" vertex="1">
+          <mxGeometry height="50" width="1000" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Провести інвентаризацію" vertex="1">
+          <mxGeometry height="110" width="280" x="520" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вхід: наказ, перелік майна, облікові дані" vertex="1">
+          <mxGeometry height="45" width="340" x="60" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Керування: правила обліку, строки, методика" vertex="1">
+          <mxGeometry height="45" width="340" x="430" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вихід: опис, акти, звіт про розбіжності" vertex="1">
+          <mxGeometry height="45" width="340" x="800" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note3" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Механізм: комісія, відповідальні особи, облікова система" vertex="1">
+          <mxGeometry height="45" width="340" x="1170" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A0 Декомпозиція" id="mmtbHFV9ezufVEXEsMYz">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A0 Декомпозиція | Проведення інвентаризації | Варіант 4" vertex="1">
+          <mxGeometry height="50" width="1000" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Підготувати інвентаризацію" vertex="1">
+          <mxGeometry height="90" width="180" x="70" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Провести фактичний підрахунок" vertex="1">
+          <mxGeometry height="90" width="180" x="310" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Порівняти дані з обліком" vertex="1">
+          <mxGeometry height="90" width="180" x="550" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Оформити результати" vertex="1">
+          <mxGeometry height="90" width="180" x="790" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Передати звіт керівництву" vertex="1">
+          <mxGeometry height="90" width="180" x="1030" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="a0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="a1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="a2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="a3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="a3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="a4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вхід: наказ, перелік майна, облікові дані" vertex="1">
+          <mxGeometry height="45" width="340" x="60" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Керування: правила обліку, строки, методика" vertex="1">
+          <mxGeometry height="45" width="340" x="430" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вихід: опис, акти, звіт про розбіжності" vertex="1">
+          <mxGeometry height="45" width="340" x="800" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note3" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Механізм: комісія, відповідальні особи, облікова система" vertex="1">
+          <mxGeometry height="45" width="340" x="1170" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A1 Підготовка" id="wdFJ1oYRWLPQM3zVcAQt">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A1 Підготовка | Проведення інвентаризації | Варіант 4" vertex="1">
+          <mxGeometry height="50" width="1000" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Отримати наказ" vertex="1">
+          <mxGeometry height="90" width="200" x="80" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Сформувати комісію" vertex="1">
+          <mxGeometry height="90" width="200" x="360" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Підготувати документи" vertex="1">
+          <mxGeometry height="90" width="200" x="640" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Повідомити відповідальних" vertex="1">
+          <mxGeometry height="90" width="200" x="920" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="a0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="a1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="a2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="a3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вхід: наказ, перелік майна, облікові дані" vertex="1">
+          <mxGeometry height="45" width="340" x="60" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Керування: правила обліку, строки, методика" vertex="1">
+          <mxGeometry height="45" width="340" x="430" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вихід: опис, акти, звіт про розбіжності" vertex="1">
+          <mxGeometry height="45" width="340" x="800" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note3" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Механізм: комісія, відповідальні особи, облікова система" vertex="1">
+          <mxGeometry height="45" width="340" x="1170" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A2 Підрахунок" id="agR7bF2XKsjsFwKIddGT">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A2 Підрахунок | Проведення інвентаризації | Варіант 4" vertex="1">
+          <mxGeometry height="50" width="1000" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Перевірити наявність майна" vertex="1">
+          <mxGeometry height="90" width="200" x="80" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Зафіксувати кількість і стан" vertex="1">
+          <mxGeometry height="90" width="200" x="360" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Зіставити з обліком" vertex="1">
+          <mxGeometry height="90" width="200" x="640" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" value="Визначити розбіжності" vertex="1">
+          <mxGeometry height="90" width="200" x="920" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="a0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="a1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="a2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" target="a3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вхід: наказ, перелік майна, облікові дані" vertex="1">
+          <mxGeometry height="45" width="340" x="60" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Керування: правила обліку, строки, методика" vertex="1">
+          <mxGeometry height="45" width="340" x="430" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Вихід: опис, акти, звіт про розбіжності" vertex="1">
+          <mxGeometry height="45" width="340" x="800" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="note3" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" value="Механізм: комісія, відповідальні особи, облікова система" vertex="1">
+          <mxGeometry height="45" width="340" x="1170" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A-0 Контекст" id="ttY5pC_yk_Wjz9AUIy3G">
+    <mxGraphModel dx="3535" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A-0 | Провести інвентаризацію | Варіант 4" vertex="1">
+          <mxGeometry height="45" width="1000" x="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Провести інвентаризацію" vertex="1">
+          <mxGeometry height="120" width="300" x="520" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="in" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Наказ, перелік майна, облікові дані">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="360" />
+              <mxPoint x="520" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctl" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Правила обліку, строки, методика">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="100" />
+              <mxPoint x="670" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="out" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Інвентаризаційний опис, звіт про розбіжності">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="360" />
+              <mxPoint x="1270" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mech" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Комісія, відповідальні особи, облікова система">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="720" />
+              <mxPoint x="670" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A0 Декомпозиція" id="SyRYskj37skg76A3eHkV">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A0 | Основні етапи інвентаризації | Варіант 4" vertex="1">
+          <mxGeometry height="45" width="1000" x="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Підготувати інвентаризацію" vertex="1">
+          <mxGeometry height="95" width="170" x="90" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Провести підрахунок" vertex="1">
+          <mxGeometry height="95" width="170" x="330" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Порівняти дані з обліком" vertex="1">
+          <mxGeometry height="95" width="170" x="570" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="b4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Оформити результати" vertex="1">
+          <mxGeometry height="95" width="170" x="810" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="b5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Передати звіт керівництву" vertex="1">
+          <mxGeometry height="95" width="170" x="1050" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Наказ та перелік майна">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="375" />
+              <mxPoint x="90" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Підготовлені документи">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="375" />
+              <mxPoint x="330" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Фактичні дані">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="375" />
+              <mxPoint x="570" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Відомість розбіжностей">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="375" />
+              <mxPoint x="810" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Опис та акт">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="375" />
+              <mxPoint x="1050" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Звіт керівництву">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="375" />
+              <mxPoint x="1360" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Правила, строки">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="100" />
+              <mxPoint x="650" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Комісія">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="700" />
+              <mxPoint x="420" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Облікова система">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="700" />
+              <mxPoint x="900" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A1 Підготовка" id="gVJbFXSQlVp98R9YTSx2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A1 | Підготувати інвентаризацію | Варіант 4" vertex="1">
+          <mxGeometry height="45" width="1000" x="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Отримати наказ керівника" vertex="1">
+          <mxGeometry height="95" width="200" x="100" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Сформувати комісію" vertex="1">
+          <mxGeometry height="95" width="200" x="390" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Підготувати перелік майна" vertex="1">
+          <mxGeometry height="95" width="200" x="680" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Повідомити відповідальних осіб" vertex="1">
+          <mxGeometry height="95" width="200" x="970" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Наказ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="375" />
+              <mxPoint x="100" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Склад комісії">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="375" />
+              <mxPoint x="390" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Перелік майна">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="375" />
+              <mxPoint x="680" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Готовність до перевірки">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="375" />
+              <mxPoint x="970" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Правила та строки">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="100" />
+              <mxPoint x="520" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Керівник">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="700" />
+              <mxPoint x="200" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Облікова база">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="700" />
+              <mxPoint x="780" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A2 Підрахунок" id="qb1RO5FjM_wHVsOC9EdL">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A2 | Провести фактичний підрахунок | Варіант 4" vertex="1">
+          <mxGeometry height="45" width="1000" x="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Оглянути майно" vertex="1">
+          <mxGeometry height="95" width="200" x="100" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Порахувати кількість" vertex="1">
+          <mxGeometry height="95" width="200" x="390" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Зафіксувати стан майна" vertex="1">
+          <mxGeometry height="95" width="200" x="680" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Зіставити з обліковими даними" vertex="1">
+          <mxGeometry height="95" width="200" x="970" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Майно">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="375" />
+              <mxPoint x="100" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Результат огляду">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="375" />
+              <mxPoint x="390" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Підраховані дані">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="375" />
+              <mxPoint x="680" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Фактичні дані">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="375" />
+              <mxPoint x="970" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Методика перевірки">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="100" />
+              <mxPoint x="520" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Комісія">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="700" />
+              <mxPoint x="200" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" value="Облікова система">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="700" />
+              <mxPoint x="1080" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A-0 Контекст" id="KbUEzBQ3uJdv9mmngnqe">
+    <mxGraphModel dx="1504" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A-0 | Провести інвентаризацію | Варіант 4" vertex="1">
+          <mxGeometry height="45" width="1000" x="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Провести інвентаризацію" vertex="1">
+          <mxGeometry height="120" width="300" x="520" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="in" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Наказ, перелік майна, облікові дані">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="360" as="sourcePoint" />
+            <mxPoint x="520" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctl" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Правила обліку, строки, методика">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="110" as="sourcePoint" />
+            <mxPoint x="670" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="out" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Інвентаризаційний опис, звіт про розбіжності">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="360" as="sourcePoint" />
+            <mxPoint x="1320" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mech" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Комісія, відповідальні особи, облікова система">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="730" as="sourcePoint" />
+            <mxPoint x="670" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A0 Декомпозиція" id="-Fo8GD8527NnKGfXfETz">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A0 | Основні етапи інвентаризації | Варіант 4" vertex="1">
+          <mxGeometry height="45" width="1000" x="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Підготувати інвентаризацію" vertex="1">
+          <mxGeometry height="95" width="170" x="100" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Провести підрахунок" vertex="1">
+          <mxGeometry height="95" width="170" x="340" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Порівняти дані з обліком" vertex="1">
+          <mxGeometry height="95" width="170" x="580" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="b4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Оформити результати" vertex="1">
+          <mxGeometry height="95" width="170" x="820" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="b5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Передати звіт керівництву" vertex="1">
+          <mxGeometry height="95" width="170" x="1060" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Наказ та перелік майна">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="375" as="sourcePoint" />
+            <mxPoint x="100" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Підготовлені документи">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="375" as="sourcePoint" />
+            <mxPoint x="340" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Фактичні дані">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="375" as="sourcePoint" />
+            <mxPoint x="580" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Відомість розбіжностей">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="375" as="sourcePoint" />
+            <mxPoint x="820" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Опис та акт">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="375" as="sourcePoint" />
+            <mxPoint x="1060" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Звіт керівництву">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="375" as="sourcePoint" />
+            <mxPoint x="1370" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Правила, строки">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="100" as="sourcePoint" />
+            <mxPoint x="665" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Комісія">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="730" as="sourcePoint" />
+            <mxPoint x="425" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Облікова система">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="730" as="sourcePoint" />
+            <mxPoint x="900" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A1 Підготовка" id="olTeOfeoi9na-l8e2jhF">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A1 | Підготувати інвентаризацію | Варіант 4" vertex="1">
+          <mxGeometry height="45" width="1000" x="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Отримати наказ керівника" vertex="1">
+          <mxGeometry height="95" width="200" x="100" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Сформувати комісію" vertex="1">
+          <mxGeometry height="95" width="200" x="390" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Підготувати перелік майна" vertex="1">
+          <mxGeometry height="95" width="200" x="680" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Повідомити відповідальних осіб" vertex="1">
+          <mxGeometry height="95" width="200" x="970" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Наказ">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="375" as="sourcePoint" />
+            <mxPoint x="100" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Склад комісії">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="375" as="sourcePoint" />
+            <mxPoint x="390" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Перелік майна">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="375" as="sourcePoint" />
+            <mxPoint x="680" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Готовність до перевірки">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="375" as="sourcePoint" />
+            <mxPoint x="970" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a5" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Правила та строки">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="100" as="sourcePoint" />
+            <mxPoint x="520" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Керівник">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="730" as="sourcePoint" />
+            <mxPoint x="200" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a7" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Облікова база">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="730" as="sourcePoint" />
+            <mxPoint x="780" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A2 Підрахунок" id="BE-XwtW3X4IaQKhP77Mr">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="A2 | Провести фактичний підрахунок | Варіант 4" vertex="1">
+          <mxGeometry height="45" width="1000" x="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Оглянути майно" vertex="1">
+          <mxGeometry height="95" width="200" x="100" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Порахувати кількість" vertex="1">
+          <mxGeometry height="95" width="200" x="390" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Зафіксувати стан майна" vertex="1">
+          <mxGeometry height="95" width="200" x="680" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" value="Зіставити з обліковими даними" vertex="1">
+          <mxGeometry height="95" width="200" x="970" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="2" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Майно">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="375" as="sourcePoint" />
+            <mxPoint x="100" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Результат огляду">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="375" as="sourcePoint" />
+            <mxPoint x="390" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Підраховані дані">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="375" as="sourcePoint" />
+            <mxPoint x="680" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Фактичні дані">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="375" as="sourcePoint" />
+            <mxPoint x="970" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Методика перевірки">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="100" as="sourcePoint" />
+            <mxPoint x="520" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Комісія">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="730" as="sourcePoint" />
+            <mxPoint x="200" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d7" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" value="Облікова система">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="730" as="sourcePoint" />
+            <mxPoint x="1080" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
